@@ -1,5 +1,3 @@
-# This yml file should be located in .github/workflows
-
 name: Newman Run
 
 on:
@@ -15,5 +13,5 @@ jobs:
       - uses: matt-ball/newman-action@master
         with:
           postmanApiKey: ${{ secrets.postmanApiKey }}
-          collection: Sales Opportunities.postman_collection
-          environment: 5922408-228c7edd-fc15-4f68-9665-a35d7df6945b
+          collection: "b4f7aaea-13b4-42b0-9942-26f0b17f960b"
+          environment: "4baaf98b-1beb-4625-9bd6-90107f8417eb"
